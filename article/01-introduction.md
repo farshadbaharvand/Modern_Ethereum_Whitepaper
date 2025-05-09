@@ -13,6 +13,7 @@ Games that run entirely on-chain
 Identity and voting systems
 
 Key Concepts Explained
+
 🔐 Blockchain
 A blockchain is a digital ledger made up of blocks, each containing a list of transactions. Each block is linked to the one before it using cryptographic hashes, forming a secure chain. This structure makes it nearly impossible to tamper with the data once added.
 
