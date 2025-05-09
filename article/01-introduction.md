@@ -31,6 +31,91 @@ Originally, Ethereum used a system called Proof-of-Work (PoW) to secure its netw
 
 In September 2022, Ethereum underwent a major upgrade called The Merge. This switched its consensus mechanism to Proof-of-Stake (PoS). Instead of mining, now users can lock up (stake) their ETH coins to help secure the network. In return, they earn rewards. This upgrade reduced Ethereum's energy usage by more than 99% and paved the way for future scaling solutions.
 
+Here's a clear and technically detailed explanation of Proof-of-Work (PoW) and Proof-of-Stake (PoS) consensus mechanisms, with a focus on how they differ and how Ethereum transitioned from PoW to PoS during The Merge.
+
+🧠 Understanding Consensus: PoW vs. PoS in Ethereum
+In a decentralized blockchain like Ethereum, there is no central authority to decide which transactions are valid or which version of the blockchain is the "truth." Instead, a consensus mechanism is used to allow all participants in the network to agree on the current state of the blockchain. Ethereum has used two major consensus mechanisms in its history: Proof-of-Work (PoW) and Proof-of-Stake (PoS).
+
+⚙️ What Is Proof-of-Work (PoW)?
+Proof-of-Work is the original consensus mechanism used by Bitcoin and by Ethereum before The Merge. It is based on the idea of solving computational puzzles to gain the right to add a new block to the blockchain.
+
+How PoW Works (Step by Step):
+Miners compete to solve a cryptographic puzzle. This involves finding a number called a nonce that, when combined with block data, produces a hash below a certain target (difficulty).
+
+This process requires massive amounts of computation and energy, because miners must try millions of nonces per second.
+
+The first miner to solve the puzzle broadcasts their block to the network.
+
+Other nodes verify the block, and if valid, add it to their copy of the blockchain.
+
+The winning miner is rewarded with newly minted ETH and transaction fees.
+
+Pros of PoW:
+Secure and well-tested.
+
+Resistant to certain types of attacks due to its high cost.
+
+Cons of PoW:
+Extremely energy-intensive (Ethereum was using ~100 TWh/year before The Merge).
+
+Hardware competition leads to centralization (e.g., mining farms).
+
+Slow throughput and high fees during congestion.
+
+🌱 What Is Proof-of-Stake (PoS)?
+Proof-of-Stake is a newer consensus mechanism that replaces computational work with economic stake. Instead of using energy to solve puzzles, validators put up a deposit of ETH to earn the right to validate blocks.
+
+How PoS Works (Step by Step in Ethereum):
+A validator must lock (stake) at least 32 ETH in a special smart contract.
+
+The Ethereum protocol randomly selects validators to propose and attest to blocks.
+
+Validators who propose valid blocks and attest honestly earn staking rewards.
+
+Validators who try to cheat (e.g., by proposing conflicting blocks) can be slashed—losing part or all of their staked ETH.
+
+Finality is achieved through a protocol called Casper FFG, which combines votes from validators to finalize blocks.
+
+Pros of PoS:
+Energy-efficient (reduces energy use by >99%).
+
+Lowers hardware barriers to entry.
+
+Easier to scale and secure for long-term upgrades like sharding.
+
+Cons of PoS:
+Complex validator behavior (e.g., slashing risks).
+
+Wealth concentration: early ETH holders may gain more influence.
+
+Newer and less battle-tested compared to PoW.
+
+🔁 Ethereum’s Transition: From PoW to PoS
+Ethereum launched in 2015 with Proof-of-Work, but from the beginning, its roadmap included a move to PoS. After years of testing, the Ethereum community achieved this transition on September 15, 2022, in an upgrade called The Merge.
+
+The execution layer (the old Ethereum chain) was merged with the Beacon Chain, which had been running PoS in parallel since 2020.
+
+Mining stopped entirely; instead, validators now maintain the network.
+
+As a result, Ethereum’s energy usage dropped by over 99.95%.
+
+This transition also enabled future scalability upgrades like danksharding and proto-danksharding (EIP-4844).
+
+📊 Quick Comparison: PoW vs. PoS in Ethereum
+
+| Feature                 | Proof-of-Work (PoW)              | Proof-of-Stake (PoS)                |
+| ----------------------- | -------------------------------- | ----------------------------------- |
+| Resource Used           | Computational power, electricity | Staked ETH                          |
+| Validators Called       | Miners                           | Validators                          |
+| Block Creator Selection | Competition (fastest wins)       | Random selection based on stake     |
+| Energy Efficiency       | Very low                         | Very high (\~99.95% more efficient) |
+| Reward Type             | Block rewards + transaction fees | Staking rewards + tips              |
+| Risk of Centralization  | High (mining farms, ASICs)       | Moderate (stake concentration)      |
+| Attack Cost             | High electricity + hardware      | High ETH stake (slashing risk)      |
+
+
+
+
 What This Article Will Cover
 This article aims to modernize and simplify the original Ethereum whitepaper. It is written for readers who have a technical or academic background but are new to blockchain. Each section will explain how Ethereum works under the hood, including:
 
