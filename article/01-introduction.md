@@ -12,45 +12,41 @@ Before money, societies engaged in barter—the direct exchange of goods and ser
 
     - Difficult to store wealth over time.
 
-    - This inefficiency motivated the search for a more versatile exchange mechanism.
-
 ## 2. Commodity Money (~3000 BCE onward)
 People began using universally accepted items with intrinsic value (e.g., cattle, grain, shells, salt, and eventually metals) as commodity money.
 
-- Key Development:
+- Key Development
     - Use of precious metals like gold and silver.
 
     - Durable, divisible, portable, and relatively scarce.
-
-    - Early coins were minted in ancient Mesopotamia, Lydia, and China.
 
 ## 3. Metallic Coinage (~600 BCE)
 Lydia (Asia Minor) is credited with producing the first standardized coins made of electrum (gold-silver alloy).
 
 Coins had stamped images, representing authority (kingdom, city-state) and legitimacy.
 
-Benefits:
+- Benefits
 
-Uniform weight and purity enabled easier trade.
+    - Uniform weight and purity enabled easier trade.
 
-Enhanced trust in transactions.
+    - Enhanced trust in transactions.
 
 ## 4. Paper Money (China ~7th Century CE)
 Tang Dynasty used promissory notes; Song Dynasty later issued the world’s first government-backed paper currency.
 
 Marco Polo famously observed paper money during his travels to Yuan China in the 13th century.
 
-Advantages:
+- Advantages
 
-Easier to transport large sums.
+    - Easier to transport large sums.
 
-Encouraged long-distance trade and early banking systems.
+    - Encouraged long-distance trade and early banking systems.
 
-Drawbacks:
+- Drawbacks
 
-Required trust in issuer (usually the state).
+    - Required trust in issuer (usually the state).
 
-Vulnerable to overissuance and inflation.
+    - Vulnerable to overissuance and inflation.
 
 ## 5. Banking and Bills of Exchange (Medieval Europe)
 Italian city-states developed banking systems and bills of exchange to facilitate trade across distances without moving physical coins.
@@ -62,20 +58,20 @@ Nations pegged their currencies to a fixed amount of gold.
 
 Created stable international trade and limited inflation.
 
-Collapse:
+- Collapse
 
-World Wars I & II disrupted gold reserves.
+    - World Wars I & II disrupted gold reserves.
 
-1971: U.S. President Nixon ended dollar convertibility to gold, ending the Bretton Woods system.
+    - 1971: U.S. President Nixon ended dollar convertibility to gold, ending the Bretton Woods system.
 
 ## 7. Fiat Money (20th Century – Present)
 Today’s national currencies (e.g., USD, EUR, JPY) are fiat currencies: issued by governments, not backed by physical commodities.
 
-Features:
+    - Features
 
-Value is based on trust in the issuing government and monetary policy.
+    - Value is based on trust in the issuing government and monetary policy.
 
-Central banks manage supply and interest rates (e.g., Federal Reserve, ECB).
+    - Central banks manage supply and interest rates (e.g., Federal Reserve, ECB).
 
 ## 8. Digital and Electronic Money (1990s – Present)
 Credit/debit cards, online banking, mobile payments.
@@ -87,15 +83,16 @@ Introduction of digital payment platforms (e.g., PayPal, Alipay, Venmo).
 
 Blockchain-based currencies (e.g., Ethereum, Solana) enable programmable money.
 
-Features:
+- Features
 
-No central authority.
+    - No central authority.
 
-Transparency and immutability.
+    - Transparency and immutability.
 
-Limited supply (for many coins).
+    - Limited supply (for many coins).
 
-Introduced concepts like smart contracts and decentralized finance (DeFi).
+    - Introduced concepts like smart contracts and decentralized finance (DeFi).
+    
 ## Summary of Evolution
 | Era                  | Form of Money        | Key Innovations                   |
 | -------------------- | -------------------- | --------------------------------- |
