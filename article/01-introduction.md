@@ -4,24 +4,25 @@ Money, at its core, is a medium of exchange, a unit of account, and a store of v
 ## 1. Barter Economy (~10,000 BCE)
 Before money, societies engaged in barter—the direct exchange of goods and services.
 
-Problems:
+- Problems
 
-Double coincidence of wants: Both parties had to want what the other offered.
+    - Double coincidence of wants: Both parties had to want what the other offered.
 
-No standardized unit of value.
+    - No standardized unit of value.
 
-Difficult to store wealth over time.
+    - Difficult to store wealth over time.
 
-This inefficiency motivated the search for a more versatile exchange mechanism.
+    - This inefficiency motivated the search for a more versatile exchange mechanism.
 
 ## 2. Commodity Money (~3000 BCE onward)
 People began using universally accepted items with intrinsic value (e.g., cattle, grain, shells, salt, and eventually metals) as commodity money.
 
-Key Development: Use of precious metals like gold and silver.
+- Key Development:
+    - Use of precious metals like gold and silver.
 
-Durable, divisible, portable, and relatively scarce.
+    - Durable, divisible, portable, and relatively scarce.
 
-Early coins were minted in ancient Mesopotamia, Lydia (modern-day Turkey), and China.
+    - Early coins were minted in ancient Mesopotamia, Lydia, and China.
 
 ## 3. Metallic Coinage (~600 BCE)
 Lydia (Asia Minor) is credited with producing the first standardized coins made of electrum (gold-silver alloy).
