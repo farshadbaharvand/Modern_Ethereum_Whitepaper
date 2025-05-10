@@ -67,7 +67,7 @@ Created stable international trade and limited inflation.
 ## 7. Fiat Money (20th Century – Present)
 Today’s national currencies (e.g., USD, EUR, JPY) are fiat currencies: issued by governments, not backed by physical commodities.
 
-    - Features
+- Features
 
     - Value is based on trust in the issuing government and monetary policy.
 
@@ -92,7 +92,7 @@ Blockchain-based currencies (e.g., Ethereum, Solana) enable programmable money.
     - Limited supply (for many coins).
 
     - Introduced concepts like smart contracts and decentralized finance (DeFi).
-    
+
 ## Summary of Evolution
 | Era                  | Form of Money        | Key Innovations                   |
 | -------------------- | -------------------- | --------------------------------- |
@@ -137,7 +137,7 @@ Smart contracts are programs that run automatically on Ethereum. They execute co
 
 Ethereum’s programming capabilities are Turing-complete, meaning you can write any logic you want—loops, conditions, storage—just like a normal programming language (e.g., Python or JavaScript). This allows for much more complex applications than Bitcoin.
 
-# ecentralized 
+# Decentralized 
 
 Ethereum is decentralized, which means there’s no central server or company running it. Instead, thousands of independent computers (called nodes) around the world run Ethereum software and maintain the blockchain together.
 
@@ -223,16 +223,18 @@ This transition also enabled future scalability upgrades like danksharding and p
 
 # Quick Comparison: PoW vs. PoS in Ethereum 
 
+| Feature                 | Proof-of-Work (PoW)                    | Proof-of-Stake (PoS)                  |
+| ----------------------- | -------------------------------------- | ------------------------------------- |
+| Resource Requirement    | Electricity + specialized hardware     | 32 ETH per validator                  |
+| Block Proposer          | Miner (hash puzzle winner)             | Randomly chosen validator             |
+| Block Time              | \~13–15 seconds                        | \~12 seconds                          |
+| Finality                | Probabilistic (multiple confirmations) | Deterministic (via Casper FFG)        |
+| Energy Consumption      | Very high                              | \~99.95% lower than PoW               |
+| Attack Cost             | Hardware + electricity                 | ETH stake (e.g., 33% for full attack) |
+| Incentive Model         | Mining reward + gas fees               | Staking yield + priority fees         |
+| Reorg Risk              | Moderate                               | Very low (unless >33% collude)        |
+| Participation Threshold | Open to anyone with hardware           | Requires 32 ETH or pooled staking     |
 
-| Feature                 | Proof-of-Work (PoW)              | Proof-of-Stake (PoS)                |
-| ----------------------- | -------------------------------- | ----------------------------------- |
-| Resource Used           | Computational power, electricity | Staked ETH                          |
-| Validators Called       | Miners                           | Validators                          |
-| Block Creator Selection | Competition (fastest wins)       | Random selection based on stake     |
-| Energy Efficiency       | Very low                         | Very high (\~99.95% more efficient) |
-| Reward Type             | Block rewards + transaction fees | Staking rewards + tips              |
-| Risk of Centralization  | High (mining farms, ASICs)       | Moderate (stake concentration)      |
-| Attack Cost             | High electricity + hardware      | High ETH stake (slashing risk)      |
 
 
 ## Proof-of-Work (PoW) 
