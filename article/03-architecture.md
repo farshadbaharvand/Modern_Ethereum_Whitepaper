@@ -16,14 +16,6 @@ The architecture of Ethereum can be conceptually divided into the following laye
 
 ---
 
-## Ethereum Architecture Diagram
-
-![Ethereum Architecture Diagram](./images/ethereum-architecture-diagram.png)
-
-*Diagram shows layered architecture from P2P Network up to Application Layer.*
-
----
-
 ## 1. Networking Layer
 
 - Responsible for peer discovery and message propagation.
