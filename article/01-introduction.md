@@ -51,27 +51,27 @@ Proof-of-Work is the original consensus mechanism used by Bitcoin and by Ethereu
 
 #### How PoW Works (Step by Step): 
 
-Miners compete to solve a cryptographic puzzle. This involves finding a number called a nonce that, when combined with block data, produces a hash below a certain target (difficulty).
+1. Miners compete to solve a cryptographic puzzle. This involves finding a number called a nonce that, when combined with block data, produces a hash below a certain target (difficulty).
 
-This process requires massive amounts of computation and energy, because miners must try millions of nonces per second.
+2. This process requires massive amounts of computation and energy, because miners must try millions of nonces per second.
 
-The first miner to solve the puzzle broadcasts their block to the network.
+3. The first miner to solve the puzzle broadcasts their block to the network.
 
-Other nodes verify the block, and if valid, add it to their copy of the blockchain.
+4. Other nodes verify the block, and if valid, add it to their copy of the blockchain.
 
-The winning miner is rewarded with newly minted ETH and transaction fees.
+5. The winning miner is rewarded with newly minted ETH and transaction fees.
 
 #### Pros of PoW:
-Secure and well-tested.
+- Secure and well-tested.
 
-Resistant to certain types of attacks due to its high cost.
+- Resistant to certain types of attacks due to its high cost.
 
 ##### Cons of PoW:
-Extremely energy-intensive (Ethereum was using ~100 TWh/year before The Merge).
+- Extremely energy-intensive (Ethereum was using ~100 TWh/year before The Merge).
 
-Hardware competition leads to centralization (e.g., mining farms).
+- Hardware competition leads to centralization (e.g., mining farms).
 
-Slow throughput and high fees during congestion.
+- Slow throughput and high fees during congestion.
 
 ### What Is Proof-of-Stake (PoS)? 
 
@@ -79,29 +79,29 @@ Proof-of-Stake is a newer consensus mechanism that replaces computational work w
 
 #### How PoS Works (Step by Step in Ethereum): 
 
-A validator must lock (stake) at least 32 ETH in a special smart contract.
+1. A validator must lock (stake) at least 32 ETH in a special smart contract.
 
-The Ethereum protocol randomly selects validators to propose and attest to blocks.
+2. The Ethereum protocol randomly selects validators to propose and attest to blocks.
 
-Validators who propose valid blocks and attest honestly earn staking rewards.
+3. Validators who propose valid blocks and attest honestly earn staking rewards.
 
-Validators who try to cheat (e.g., by proposing conflicting blocks) can be slashed—losing part or all of their staked ETH.
+4. Validators who try to cheat (e.g., by proposing conflicting blocks) can be slashed—losing part or all of their staked ETH.
 
-Finality is achieved through a protocol called Casper FFG, which combines votes from validators to finalize blocks.
+5. Finality is achieved through a protocol called Casper FFG, which combines votes from validators to finalize blocks.
 
 #### Pros of PoS:
-Energy-efficient (reduces energy use by >99%).
+- Energy-efficient (reduces energy use by >99%).
 
-Lowers hardware barriers to entry.
+- Lowers hardware barriers to entry.
 
-Easier to scale and secure for long-term upgrades like sharding.
+- Easier to scale and secure for long-term upgrades like sharding.
 
-Cons of PoS:
-Complex validator behavior (e.g., slashing risks).
+#### Cons of PoS:
+- Complex validator behavior (e.g., slashing risks).
 
-Wealth concentration: early ETH holders may gain more influence.
+- Wealth concentration: early ETH holders may gain more influence.
 
-Newer and less battle-tested compared to PoW.
+- Newer and less battle-tested compared to PoW.
 
 # Ethereum’s Transition: From PoW to PoS 
 
@@ -216,4 +216,4 @@ This article aims to modernize and simplify the original Ethereum whitepaper. It
 
 - You’ll also see real-world examples, diagrams, code snippets (in Solidity), and links to Ethereum Improvement Proposals (EIPs) where changes are formally proposed and documented.
 
-[modern-ethereum-whitepaper](https://github.com/farshadbaharvand/modern-ethereum-whitepaper)
+[**modern-ethereum-whitepaper**](https://github.com/farshadbaharvand/modern-ethereum-whitepaper)
