@@ -42,25 +42,6 @@ Smart contracts are deployed to the Ethereum blockchain and executed by the **Et
 3. Use a wallet (e.g., MetaMask) or framework (e.g., Hardhat, Foundry) to deploy.
 4. Pay **gas fees** based on the complexity and size of the contract.
 
-### Example Solidity Contract
-
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
-
-contract SimpleStorage {
-    uint public storedData;
-
-    function set(uint x) public {
-        storedData = x;
-    }
-
-    function get() public view returns (uint) {
-        return storedData;
-    }
-}
-
-
 # Smart Contracts on Ethereum
 
 Smart contracts are self-executing programs deployed on the Ethereum blockchain that automatically enforce predefined rules and agreements. They are foundational to decentralized finance (DeFi), NFTs, DAOs, and much more.
@@ -138,7 +119,7 @@ Smart contracts are public and immutable. Bugs or logic errors can result in cat
 - **Parity Wallet Bug (2017)**: Mistakenly froze 500,000 ETH
 - **Nomad Bridge Hack (2022)**: ~$190M stolen due to upgrade misconfiguration
 
-> **Always audit contracts, apply best practices, and use formal verification where possible.**
+>  **Always audit contracts, apply best practices, and use formal verification where possible.**
 
 ---
 
