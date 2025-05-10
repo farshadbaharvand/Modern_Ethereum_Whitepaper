@@ -216,3 +216,4 @@ This article aims to modernize and simplify the original Ethereum whitepaper. It
 
 - You’ll also see real-world examples, diagrams, code snippets (in Solidity), and links to Ethereum Improvement Proposals (EIPs) where changes are formally proposed and documented.
 
+[modern-ethereum-whitepaper](https://github.com/farshadbaharvand/modern-ethereum-whitepaper)
