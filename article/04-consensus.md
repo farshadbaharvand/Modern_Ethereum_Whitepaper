@@ -4,7 +4,7 @@ Consensus is the mechanism by which Ethereum nodes agree on the canonical state 
 
 ---
 
-## 📜 From PoW to PoS
+## From PoW to PoS
 
 | Consensus Mechanism | Status         | Description                                              |
 |---------------------|----------------|----------------------------------------------------------|
@@ -15,7 +15,7 @@ The Merge replaced computational work with **economic commitment**, enabling sus
 
 ---
 
-## 🔁 How Proof of Stake (PoS) Works
+## How Proof of Stake (PoS) Works
 
 In PoS, validators are randomly selected to propose new blocks and vote (attest) on their validity. This is coordinated by the **Beacon Chain**, Ethereum's consensus engine post-Merge.
 
@@ -31,7 +31,7 @@ In PoS, validators are randomly selected to propose new blocks and vote (attest)
 
 ---
 
-## 🧱 Beacon Chain and Validator Roles
+## Beacon Chain and Validator Roles
 
 The Beacon Chain manages validator duties and finality through a mechanism called **Casper FFG** (Friendly Finality Gadget).
 
@@ -42,7 +42,7 @@ The Beacon Chain manages validator duties and finality through a mechanism calle
 
 ---
 
-## 🧮 Rewards and Penalties
+## Rewards and Penalties
 
 Validators are incentivized with ETH rewards for correct behavior and penalized for faults or attacks.
 
@@ -55,7 +55,7 @@ Validators are incentivized with ETH rewards for correct behavior and penalized 
 
 ---
 
-## 🪓 Slashing
+## Slashing
 
 Slashing is a penalty for malicious actions. It results in the forced exit of the validator and destruction of part of their stake.
 
@@ -66,7 +66,7 @@ Slashing is a penalty for malicious actions. It results in the forced exit of th
 
 ---
 
-## 🔐 Finality and Checkpoints
+## Finality and Checkpoints
 
 Ethereum uses **checkpoint finality** to ensure consensus:
 
@@ -78,7 +78,7 @@ Ethereum uses **checkpoint finality** to ensure consensus:
 
 ---
 
-## 🖼️ Ethereum PoS Consensus Diagram
+## Ethereum PoS Consensus Diagram
 
 ![Ethereum PoS Consensus Diagram](./images/ethereum-consensus-diagram.png)
 
@@ -86,7 +86,7 @@ Ethereum uses **checkpoint finality** to ensure consensus:
 
 ---
 
-## 🧑‍💻 Client Stack: Post-Merge Architecture
+## Client Stack: Post-Merge Architecture
 
 Ethereum clients are now modular, separating **execution** and **consensus** responsibilities.
 
@@ -99,7 +99,7 @@ They communicate via the **Engine API** to coordinate state and block production
 
 ---
 
-## 📊 Validator Metrics (2025 Q2 Estimate)
+## Validator Metrics (2025 Q2 Estimate)
 
 | Metric                  | Value               |
 |-------------------------|---------------------|
@@ -110,19 +110,19 @@ They communicate via the **Engine API** to coordinate state and block production
 
 ---
 
-## ✅ Advantages of Proof of Stake
+## Advantages of Proof of Stake
 
 | Benefit             | Explanation |
 |---------------------|-------------|
-| 🌿 Energy Efficient | No mining hardware required |
-| 🛡️ Secure          | Attacks are costly and punishable |
-| ⚡ Fast Finality    | Checkpoint finality every 6.4 minutes |
-| 🤝 Decentralized    | Broader participation possible |
-| 🧩 Modular Design   | Separation of execution and consensus |
+|  Energy Efficient | No mining hardware required |
+|  Secure          | Attacks are costly and punishable |
+|  Fast Finality    | Checkpoint finality every 6.4 minutes |
+|  Decentralized    | Broader participation possible |
+|  Modular Design   | Separation of execution and consensus |
 
 ---
 
-## 📚 Conclusion
+## Conclusion
 
 Ethereum's move to Proof of Stake fundamentally enhances its sustainability, security, and decentralization. Validators, not miners, now uphold the network by staking ETH and following protocol rules. The Beacon Chain coordinates all validator activity, ensuring the blockchain advances securely and efficiently.
 
