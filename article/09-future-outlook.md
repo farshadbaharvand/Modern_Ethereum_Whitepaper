@@ -121,14 +121,3 @@ Key factors:
 The future of Ethereum is defined by relentless innovation aimed at scalability, decentralization, and usability. With the combination of Layer 2 scaling, account abstraction, Verkle trees, and MEV mitigation, Ethereum is positioning itself as the foundational infrastructure for a decentralized, open, and permissionless internet.
 
 However, success hinges on overcoming technical challenges, maintaining credible neutrality, and delivering seamless user experiences. The next few years will be critical in determining Ethereum's role as the backbone of Web3.
-
----
-
-## 9. Further Reading & Resources
-
-- [Ethereum Foundation Roadmap](https://ethereum.org/en/upgrades/)
-- [Vitalik Buterin's Roadmap (2023)](https://vitalik.ca/general/2022/12/30/roadmap2023.html)
-- [EIP-4844: Proto-Danksharding](https://eips.ethereum.org/EIPS/eip-4844)
-- [L2Beat - Layer 2 Scaling Tracker](https://l2beat.com/)
-- [Flashbots Research on MEV](https://writings.flashbots.net/)
-
