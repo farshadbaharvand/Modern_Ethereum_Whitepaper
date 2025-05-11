@@ -35,11 +35,22 @@
 
 ### 3.2 High-Level Architecture Diagram
 
-```mermaid
+
 flowchart TD
     A[User] -->|Transaction| B[Layer 2 (Rollup / Channel)]
     B -->|Batch / Proof| C[Layer 1 Ethereum Mainnet]
     C -->|Final Settlement| D[Consensus & Data Availability]
+
+
+## 4. Types of Layer 2 Solutions
+
+| Type                   | Mechanism                                             | Examples             | Trade-offs                                             |
+| ---------------------- | ----------------------------------------------------- | -------------------- | ------------------------------------------------------ |
+| **State Channels**     | Off-chain transactions with occasional L1 settlement. | Raiden, Connext      | Low latency, limited to specific use cases.            |
+| **Plasma**             | Hierarchical chains with periodic L1 checkpoints.     | OMG Network (legacy) | High throughput, exit challenges.                      |
+| **Optimistic Rollups** | Assume validity, challenge via fraud proofs.          | Optimism, Arbitrum   | Lower cost, challenge period latency (7 days).         |
+| **ZK-Rollups**         | Use zero-knowledge proofs for validity.               | zkSync, StarkNet     | Fast finality, computationally intensive provers.      |
+| **Validiums**          | Off-chain data availability, ZK-proofed execution.    | Immutable X          | Scalable, depends on external data availability layer. |
 
 
 
