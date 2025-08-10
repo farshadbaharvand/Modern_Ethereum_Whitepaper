@@ -1,4 +1,4 @@
-# Layer 2 Solutions on Ethereum: A Comprehensive Guide
+# 7. Layer 2 Solutions on Ethereum: A Comprehensive Guide
 
 ## 1. Introduction: What is Layer 2?
 

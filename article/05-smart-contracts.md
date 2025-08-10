@@ -1,4 +1,4 @@
-# Smart Contracts on Ethereum
+# 5. Smart Contracts on Ethereum
 
 Smart contracts are the foundational innovation that makes Ethereum a programmable blockchain. They enable decentralized applications (dApps), autonomous organizations, token standards, and a wide range of trustless interactions.
 

@@ -1,4 +1,4 @@
-# Applications on Ethereum: A Comprehensive Guide
+# 8. Applications on Ethereum: A Comprehensive Guide
 
 ## 1. Introduction: What Are Ethereum Applications?
 

@@ -1,4 +1,4 @@
-# The Future Outlook of Ethereum: A Comprehensive Guide
+# 9. The Future Outlook of Ethereum: A Comprehensive Guide
 
 ## 1. Introduction
 

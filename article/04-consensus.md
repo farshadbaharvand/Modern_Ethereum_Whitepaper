@@ -1,4 +1,4 @@
-# Consensus in Ethereum
+# 4. Consensus in Ethereum
 
 Consensus is the mechanism by which Ethereum nodes agree on the canonical state of the blockchain. After Ethereum's Merge in September 2022, the network transitioned from **Proof of Work (PoW)** to **Proof of Stake (PoS)**, significantly improving energy efficiency and economic security.
 

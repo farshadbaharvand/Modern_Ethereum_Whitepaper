@@ -1,4 +1,4 @@
-# Ethereum Architecture
+#  03. Ethereum Architecture
 
 Ethereum is a decentralized, programmable blockchain platform. Its architecture is designed to support trustless computation via smart contracts, while maintaining a secure, consensus-driven, and globally distributed network. At its core, Ethereum consists of various layers and components that work together to execute, validate, and store decentralized applications (dApps).
 

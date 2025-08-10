@@ -1,3 +1,4 @@
+# 1. Introduction
 # A Brief History of Money
 
 Money, at its core, is a medium of exchange, a unit of account, and a store of value. Its evolution reflects human innovation in organizing economies and societies.

@@ -2,7 +2,9 @@
 
 Ethereum is more than just a technological innovation—it is a convergence of ideas from economics, computer science, cryptography, and political philosophy. Understanding Ethereum requires grounding in the theoretical principles that shaped its design and objectives.
 
+
 ---
+
 
 ## The Nature and Evolution of Money
 

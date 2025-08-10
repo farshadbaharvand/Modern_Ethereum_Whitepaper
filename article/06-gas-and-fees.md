@@ -1,5 +1,5 @@
 
-# Ethereum Gas and Fees
+# 6. Ethereum Gas and Fees
 
 Gas and fees are essential components of Ethereum's architecture. They regulate computational cost, protect against abuse, and ensure fair allocation of resources. This article provides a detailed overview of how gas and fees work on Ethereum, from historical background to modern innovations like EIP-1559 and Layer 2 scaling.
 
