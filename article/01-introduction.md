@@ -233,10 +233,6 @@ Smart contracts in Ethereum are self-executing pieces of code stored on the Ethe
 
 ---
 
-# Solidity Code Example: Simple Staking Contract
-
-*(Include code block here if needed)*
-
 
 # Solidity Code Example: Simple Staking Contract 
 This is a simplified staking contract to demonstrate the idea of staking ETH. In real Ethereum, staking is handled by the protocol itself, not a smart contract, but this example shows the core logic.
@@ -283,18 +279,5 @@ withdraw(): Users can withdraw their stake at any time (unlike Ethereum PoS, whi
 This does not handle slashing, validator selection, or block rewards. In Ethereum PoS, these are managed at the protocol level via the Beacon Chain and Ethereum clients.
 
 
-
-# What This Article Will Cover
-This article aims to modernize and simplify the original Ethereum whitepaper. It is written for readers who have a technical or academic background but are new to blockchain. Each section will explain how Ethereum works under the hood, including:
-
-- The math and logic behind smart contracts and consensus
-
-- How gas fees and transactions are managed
-
-- What changed in the network after The Merge
-
-- How Ethereum is evolving to support millions of users
-
-- You’ll also see real-world examples, diagrams, code snippets (in Solidity), and links to Ethereum Improvement Proposals (EIPs) where changes are formally proposed and documented.
 
 [**modern-ethereum-whitepaper**](https://github.com/farshadbaharvand/modern-ethereum-whitepaper)
